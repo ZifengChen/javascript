@@ -1,3 +1,4 @@
-# javascript
+#udemy JavaScript Learning Document
 My javascript learning progress
-9.15.2018
+Sunday, September 16, 2018
+Zifeng Chen
