@@ -85,34 +85,49 @@ console.timeEnd('Hello');
 // console.log(numbers);
 
 
+// let val;
+
+// val = String(5);
+// val = String(4+4);
+// //Bool to string
+// val = String(true);
+// //Date to string
+// val = String(new Date());
+// //Array to string
+// val = String([1,2,3,4]);
+
+// //toString
+// val = (5).toString();
+// val = (true).toString();
+
+// //String to number
+// val = Number('5');
+// val = Number(true);
+// val = Number(false);
+// val = Number(null);
+// val = Number('hello');
+
+// val = parseInt('100.30');
+// val = parseFloat('100.41');
+
+// //Output
+// console.log(val);
+// console.log(typeof val);
+// //console.log(val.length);
+// console.log(val.toFixed());
+
+
+const firstName = 'William';
+const str = 'Hello there my name is Ceaser';
+const tags = 'Web Development, Wed Design, Programming';
+
 let val;
 
-val = String(5);
-val = String(4+4);
-//Bool to string
-val = String(true);
-//Date to string
-val = String(new Date());
-//Array to string
-val = String([1,2,3,4]);
+val = firstName.charAt(firstName.length - 1);
 
-//toString
-val = (5).toString();
-val = (true).toString();
+//split()
+val = tags.split(',');
+//replace()
+val = str.replace('Ceaser','Ken');
 
-//String to number
-val = Number('5');
-val = Number(true);
-val = Number(false);
-val = Number(null);
-val = Number('hello');
-
-val = parseInt('100.30');
-val = parseFloat('100.41');
-
-//Output
 console.log(val);
-console.log(typeof val);
-//console.log(val.length);
-console.log(val.toFixed());
-
